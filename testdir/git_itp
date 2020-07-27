@@ -1,0 +1,47 @@
+git add nazwa_pliku
+po zrobieniu zadań:
+git add .
+git commit -m "bit-man14"
+git push origin master
+git push pb master 
+
+podłącznie lokalnego do zdalnego:
+git remote add origin https://github.com/nasz-uzytkownik/nasz-projekt.git
+
+Aktualizowanie listy pakietów 		sudo apt-get update
+Instalacja pakietu 			sudo apt-get install nazwa_pakietu
+Kasowanie pakietów 			sudo apt-get remove nazwa_pakietu
+Kasowanie pakietu z zależnościami 	sudo apt-get --purge remove nazwa_pakietu
+Pobieranie kodów źródłowych 		sudo apt-get source nazwa_pakietu
+Wyszukiwanie pakietu 			sudo apt-cache search nazwa_pakietu
+Aktualizowanie wszystkich pakietów 	sudo apt-get upgrade
+Aktualizowanie dystrybucji Linuxa 	sudo apt-get dist-upgrade
+Kasowanie wszystkich pobranych plików 	sudo apt-get clean
+
+SQL
+SHOW DATABASES;
+USE nazwa_bazy_danych;
+SHOW TABLES;
+DESCRIBE nazwa_tabeli;
+
+dodawanie rekordów:
+INSERT INTO table_name(col_name_1, col_name_2, col_name_3, ...)
+
+VALUES (value1, value2, value3, ...);
+
+INSERT INTO table_name VALUES (value1, value2, value3, ...);
+
+zmiana danych:
+UPDATE students SET name="Grzesiek" WHERE student_id=2;
+
+usuwanie:
+DELETE FROM table_name
+WHERE some_column = some_value;
+
+Tworzenie bazy danych:
+CREATE DATABASE preworkSQL CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+Usunięcie bazy danych (wraz z tabelami i wszystkimi danymi):
+DROP DATABASE preworkSQL;
+zmiana
+				
