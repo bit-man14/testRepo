@@ -1,3 +1,20 @@
+LOCAL:
+git init			w folderze-tworzy nowe lokalne repo
+git add .			dodaje wszystkie pliki z folderu do repo
+git commit -m "komentarz"	aktualizuje lokalne repo
+
+Stworzenie połączenia z GitHubem:
+nowe repo na github
+-skopiować link np:https://github.com/bit-man14/testRepo.git
+git remote add origin https://github.com/bit-man14/testRepo.git
+można sprawdzić:
+git remote -v
+git push origin master		wypchnięcie na githuba
+
+
+
+
+
 git add nazwa_pliku
 po zrobieniu zadań:
 git add .
